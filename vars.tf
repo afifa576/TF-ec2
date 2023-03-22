@@ -5,5 +5,6 @@ variable "instance"{
 
 }
 variable "key"{
-    
+
 }
+variable "tag"{}
