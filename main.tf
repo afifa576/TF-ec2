@@ -1,4 +1,4 @@
-resource "aws_ec2" "demo" {
+resource "aws_isntance" "demo" {
     ami=var.ami
     instance_type=var.instance
     key_name=var.key
